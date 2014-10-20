@@ -18,3 +18,12 @@ Post the details of the force push to a Slack channel.
 | `SLACK_CHANNEL` | The channel where the details should be posted. | Optional  |
 
 If no channel is provided, the channel specified when setting up the integration will be used.
+
+
+## PagerDuty
+
+Trigger an incident in PagerDuty when a force push occurs.
+
+| Name                    | Purpose                               | Required? |
+| ----------------------- | ------------------------------------- | --------- |
+| `PAGERDUTY_SERVICE_KEY` | The PagerDuty service API key to use. | Required  |

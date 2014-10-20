@@ -1,3 +1,4 @@
+require_relative 'notifiers/pagerduty'
 require_relative 'notifiers/slack'
 
 module Kenobi
