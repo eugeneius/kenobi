@@ -28,7 +28,7 @@ module Kenobi
 
       def details(payload)
         {
-          'branch' => payload['ref'],
+          'branch' => payload['branch'],
           'repo' => payload['repository']['full_name'],
           'before' => payload['before'],
           'after' => payload['after']
