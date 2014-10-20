@@ -3,6 +3,11 @@
 Kenobi detects forced pushes on GitHub repos and alerts you about them.
 
 
+# Configuration
+
+By default, all branches will be checked. If you only care about particular branches, set a comma separated list of them in the `BRANCHES` environment variable.
+
+
 # Notifiers
 
 Several different notifiers can be used to alert you that a force push has been detected. Configure them by setting the required environment variables.
