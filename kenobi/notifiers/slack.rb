@@ -4,13 +4,13 @@ module Kenobi
   module Notifiers
     class Slack
       def self.setup(config)
-        if config.key?('SLACK_TEAM') && config.key?('SLACK_TOKEN')
+        if config.key?('SLACK_WEBHOOK_URL')
           self.new(config)
         end
       end
 
       def initialize(config)
-        @notifier = ::Slack::Notifier.new(config['SLACK_TEAM'], config['SLACK_TOKEN'])
+        @notifier = ::Slack::Notifier.new(config['SLACK_WEBHOOK_URL'])
       end
 
       def notify!(payload)

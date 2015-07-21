@@ -16,10 +16,9 @@ Several different notifiers can be used to alert you that a force push has been 
 
 Post the details of the force push to Slack.
 
-| Name            | Purpose               | Required? |
-| --------------- | --------------------- | --------- |
-| `SLACK_TEAM`    | Your Slack team name. | Required  |
-| `SLACK_TOKEN`   | Your Slack API token. | Required  |
+| Name                | Purpose                       | Required? |
+| ------------------- | ----------------------------- | --------- |
+| `SLACK_WEBHOOK_URL` | The Slack webhook URL to use. | Required  |
 
 
 ## PagerDuty
