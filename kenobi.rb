@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'json'
+require_relative 'kenobi/version'
 require_relative 'kenobi/notifier'
 
 notifier = Kenobi::Notifier.setup(ENV)
