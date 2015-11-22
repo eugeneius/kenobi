@@ -1,3 +1,10 @@
+# This project is obsolete
+
+You should just use a [protected branch](https://help.github.com/articles/configuring-protected-branches/) instead.
+
+---
+
+
 # Kenobi
 
 Kenobi detects forced pushes on GitHub repos and alerts you about them.
